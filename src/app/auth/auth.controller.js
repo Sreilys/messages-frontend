@@ -7,6 +7,6 @@ export class AuthController {
   }
 
   register() {
-    this.$auth.signup({email: 'sabrina.bosco89@gmail.com'});
+    this.$auth.signup(this.user);
   }
 }
