@@ -1,6 +1,6 @@
 export class AuthController {
 
-  contructor($auth) {
+  constructor($auth) {
     'ngInject';
 
     this.$auth = $auth
